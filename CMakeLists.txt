@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(COWString VERSION 0.0.1)
+SET(SRC main.cpp)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+add_executable(COWString ${SRC})
+set_target_properties(COWString PROPERTIES CXX_STANDARD 14)
